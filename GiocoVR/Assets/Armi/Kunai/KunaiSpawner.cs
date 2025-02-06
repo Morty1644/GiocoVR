@@ -1,18 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
-public class Kunai : MonoBehaviour
+using UnityEngine.InputSystem;
+public class KunaiSpawner : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField]
+    private GameObject projectilePrefab;
+
+    [SerializeField]
+    private Transform firePoint;
+
+    public InputActionReference shootAction;
 
     // Update is called once per frame
     void Update()
     {
-        
+        if ()
     }
 }
